@@ -2,9 +2,6 @@ spring:
   application:
     name: lv3-final-mission
 
-  sql:
-    init.mode: always
-
   h2:
     console.enabled: true
 
