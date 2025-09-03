@@ -2,24 +2,11 @@ spring:
   application:
     name: lv3-final-mission
 
-  jpa:
-    show-sql: true
-    defer-datasource-initialization: true
-    hibernate.ddl-auto: create-drop
-    properties:
-      hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
-
   sql:
     init.mode: always
 
   h2:
     console.enabled: true
-
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://10.0.0.12:3306/final?characterEncoding=UTF-8&serverTimezone=UTC
-    username: app
-    password: "0000"
 
 secret:
   jwt-key: regjeoigjroigji3j2io3io4h2bjasbdjaksbdkjqu3hu23hru3rhashudhausdhas
